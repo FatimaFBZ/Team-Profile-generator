@@ -1,0 +1,21 @@
+.text-center{
+    padding:40px;
+    background-color: beige;
+   text-align: center;
+}
+
+body {
+    background-color:rgb(52, 182, 199)!important;
+}
+
+.card-custom {
+    background-color: rgb(179, 186, 207);
+    color: #000000;
+    text-shadow: white 1px 1px;
+    max-width: 500px;
+    display: flexbox;
+  
+}
+
+
+
