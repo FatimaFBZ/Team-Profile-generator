@@ -5,8 +5,7 @@ const Intern=require('./classes/intern')
 const Employee = require('./classes/employee')
 const Manager= require('./classes/Manager')
 const Engineer= require('./classes/Engineer')
-//var team = [{ name: 'Fatima' }, { name: 'Yasmin' }]
-//console.log('Making html from other file!!!', generateHtml(team))
+
 const managers = [];
 const engineers = [];
 const interns = [];
@@ -24,11 +23,7 @@ const TeamMember = () => {
             if(answers.TeamMember === true) {
                 question1();
             } else {
-               // console.log(managers, engineers, interns);
-                //module.exports = managers;
-                //module.exports = engineers;
-                //module.exports = interns;
-                
+              
                 var html= generateHtml(managers, engineers, interns);
                 console.log(html)
                 fs.writeFileSync("newHtml.html",html,'utf-8')
